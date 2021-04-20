@@ -1,0 +1,6 @@
+---
+- name: Run gitlab runner
+  hosts: linux1
+  gather_facts: yes
+  roles:
+    - ansible-gitlab-runner
